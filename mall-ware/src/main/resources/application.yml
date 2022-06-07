@@ -1,0 +1,26 @@
+#server:
+#  port: 805
+#spring:
+## MySQL配置
+#  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://192.168.242.201:3306/gulimall_wms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+#    username: root
+#    password: cestc01
+#
+## nacos
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 192.168.242.201:8848
+#  application:
+#    name: mall-ware
+#
+#mybatis-plus:
+#  mapper-locations: classpath*:/mapper/**/*.xml
+#  global-config:
+#    db-config:
+#      id-type: auto
+#
+#
